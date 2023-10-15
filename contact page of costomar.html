@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>RK METAL</h1>
+  <p>Welcome.</p>
+  <p>We have created a Metal website. In this website you can order your required order. and you can see all your order and many more thing. we welcome our all customer to wisite our web and check our latest collection. The RK METAL is created by 2 brother RAJURAM BISHNOI and RAMESH BISHNOI we have partner MK MOHAN LAL BISHNOI. The company RK METAL was built in 2018. we have a another branch name RK STEEL.</p>
+</div>
+
+<h2 style="text-align:center">Our Founder</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://pbs.twimg.com/media/F8aCJc3bIAAy1jj?format=png&name=120x120" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>RAMESH BISHNOI</h2>
+        <p class="title">CEO & Founder</p>
+        <p>        </p>
+        <p>rameshbishnoi2929@gmail.com</p>
+        <p><button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'" class="button" >Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://pbs.twimg.com/media/F8aBQimaQAA9Een?format=png&name=360x360" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>RAJURAM BISHNOI</h2>
+        <p class="title">CEO & Founder</p>
+        <p>         </p>
+        <p>rajurambishnoi90000@gmail.com</p>
+        <p><button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'" class="button" >Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://usefulicons.com/uploads/icons/202105/3714/84d810328ade.png" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>MK.Mohanlal Bishnoi</h2>
+        <p class="title">CEO & Founder and partner</p>
+        <p>         </p>
+        <p>mohanlalbishnoi2929@gmail.com</p>
+        <p><button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'" class="button" >Contact</button></p>
+     
+  
+  
+      
+ 
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Ticket Modal -->
+<div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Contact Us</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="CEO & Founder"></i> CEO & Founder</label></p>
+        
+        <p><label><i class="fa fa-user"></i> Rajuram Bishnoi</label></p>
+        <p><label><i class="fa fa-phone"></i> 9000097002</label></p>
+        <p><label><i class="fas fa-envelope-square"></i> rajurambishnoi90000@gmail.com</label></p>
+        <p><label><i class="fa fa-instagram"></i> XXXXXXXXXXXXX</label></p>
+        <p><label><i class=""></i> ______________________________________</label></p>
+
+
+        <p><label><i class="CEO & Founder"></i> CEO & Founder</label></p>
+        <p><label><i class="fa fa-user"></i> Ramesh BIshnoi</label></p>
+        <p><label><i class="fa fa-phone"></i> 8182898981</label></p>
+        <p><label><i class="fas fa-envelope-square"></i> rameshbishnoi2929@gmail.com</label></p>
+        <p><label><i class="fa fa-instagram"></i> XXXXXXXXXXXXX</label></p>
+        <p><label><i class=""></i> ______________________________________</label></p>
+
+
+        <p><label><i class="CEO & Founder"></i> CEO & Founder</label></p>
+        <p><label><i class="fa fa-user"></i> Ramesh BIshnoi</label></p>
+        <p><label><i class="fa fa-phone"></i> 8182898981</label></p>
+        <p><label><i class="fas fa-envelope-square"></i> rameshbishnoi2929@gmail.com</label></p>
+        <p><label><i class="fa fa-instagram"></i> XXXXXXXXXXXXX</label></p>
+        <p><label><i class=""></i> ______________________________________</label></p>
+
+        
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">THANKYOU <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+        <a href="file:///C:/Users/rajur/Downloads/photo.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Avalable</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i  class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by Kapil Bishnoi </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
